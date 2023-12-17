@@ -365,11 +365,8 @@ ul {
   justify-content: center;
 }
 
-/* .instagram-link:hover, */
-/* .instagram-link:focus */
-
-.svg-social:hover,
-.svg-social:focus {
+.instagram-link:hover,
+.instagram-link:focus {
   background-color: var(--ocean);
 }
 
@@ -406,13 +403,13 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue);
-  margin-bottom: 72px;
   text-align: center;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .customer-clients {
@@ -448,7 +445,7 @@ ul {
 
 .part-one-logos {
   display: inline-block;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -468,6 +465,7 @@ ul {
   line-height: 1.17;
   text-align: left;
   text-transform: uppercase;
+  /* margin-bottom: 16px; */
 }
 
 .title-icon-media {
@@ -481,7 +479,7 @@ ul {
 
 .footer-social-media-sec {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 16px;
 }
 
@@ -506,6 +504,11 @@ ul {
 }
 .footer-first-alin-vertical {
   margin-right: 120px;
+  flex-direction: column;
+  display: inline-block;
+}
+
+.footer-second-alin-vertical {
   flex-direction: column;
   display: inline-block;
 }
