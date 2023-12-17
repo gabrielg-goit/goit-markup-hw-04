@@ -355,7 +355,7 @@ ul {
   justify-content: center;
 }
 
-.instagram-link2 {
+.instagram-link-two {
   background-color: var(--iris);
   width: 100%;
   height: 100%;
@@ -370,8 +370,8 @@ ul {
   background-color: var(--ocean);
 }
 
-.instagram-link2:hover,
-.instagram-link2:focus {
+.instagram-link-two:hover,
+.instagram-link-two:focus {
   background-color: #31d0aa;
 }
 
